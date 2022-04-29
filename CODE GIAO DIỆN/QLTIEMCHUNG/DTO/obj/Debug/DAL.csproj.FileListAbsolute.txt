@@ -1,0 +1,6 @@
+C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\bin\Debug\DTO.dll
+C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\bin\Debug\DTO.pdb
+C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DTO.dll
+C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DTO.pdb
