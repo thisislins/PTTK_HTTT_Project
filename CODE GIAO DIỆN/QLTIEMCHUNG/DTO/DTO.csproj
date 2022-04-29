@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C537445-AA2B-4F8F-97B3-8FBFB85BC71D}</ProjectGuid>
+    <ProjectGuid>{B0E595B9-8348-415A-9584-48A3E096FA45}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DTO</RootNamespace>
@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,10 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CTDangKY.cs" />
+    <Compile Include="DSPhieuDat.cs" />
+    <Compile Include="DSPhieuDK.cs" />
     <Compile Include="KhachHang.cs" />
-    <Compile Include="NhanVien.cs" />
+    <Compile Include="PhieuDat.cs" />
+    <Compile Include="PhieuDK.cs" />
     <Compile Include="PhieuKham.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vaccine.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

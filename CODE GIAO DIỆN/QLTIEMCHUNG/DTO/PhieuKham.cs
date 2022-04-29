@@ -20,17 +20,6 @@ namespace DTO
         public int HUYETAP;
         public string KETLUAN;
 
-        public PhieuKham(int mABS, int mAKH, DateTime nGAYKHAM, int nHIETDO, int nHIPTIM, int hUYETAP, string kETLUAN)
-        {
-            MABS = mABS;
-            MAKH = mAKH;
-            NGAYKHAM = nGAYKHAM;
-            NHIETDO = nHIETDO;
-            NHIPTIM = nHIPTIM;
-            HUYETAP = hUYETAP;
-            KETLUAN = kETLUAN;
-        }
-
         public PhieuKham(int mAPK, int mABS, int mAKH, DateTime nGAYKHAM, int nHIETDO, int nHIPTIM, int hUYETAP, string kETLUAN)
         {
             MAPK = mAPK;

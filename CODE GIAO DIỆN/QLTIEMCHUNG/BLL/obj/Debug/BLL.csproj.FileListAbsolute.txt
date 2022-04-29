@@ -1,11 +1,22 @@
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\bin\Debug\BLL.dll
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\bin\Debug\BLL.pdb
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\bin\Debug\DAL.dll
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\bin\Debug\DTO.dll
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\bin\Debug\DAL.pdb
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\bin\Debug\DTO.pdb
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CopyComplete
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\obj\Debug\BLL.dll
-C:\Users\lephu\source\repos\QLTIEMCHUNG\BLL\obj\Debug\BLL.pdb
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\bin\Debug\BLL.dll
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\bin\Debug\BLL.pdb
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\bin\Debug\DAL.dll
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\bin\Debug\DTO.dll
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\bin\Debug\DAL.pdb
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\bin\Debug\DTO.pdb
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\obj\Debug\BLL.dll
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\BLL\obj\Debug\BLL.pdb
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\bin\Debug\BLL.dll
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\bin\Debug\BLL.pdb
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\bin\Debug\DAL.dll
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\bin\Debug\DTO.dll
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\bin\Debug\DAL.pdb
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\bin\Debug\DTO.pdb
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\obj\Debug\BLL.dll
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\BLL\obj\Debug\BLL.pdb

@@ -6,28 +6,40 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    class KhachHang
+    public class KhachHang
     {
-        public int MAKH;
-        public string HOTEN;
-        public DateTime NGAYSINH;
-        public string DIACHI;
-        public string SDT;
-        public string CMND;
-        public string LOAIKH;
-        public int MANGH;
+        int maKH;
+        string hoTen;
+        DateTime ngaySinh;
+        string gioiTinh;
+        string diaChi;
+        string SDT;
+        string CMND;
+        string loaiKH;
+        int maNGH;
 
-        public KhachHang(int mAKH, string hOTEN, DateTime nGAYSINH, string dIACHI, string sDT, string cMND, string lOAIKH, int mANGH)
-        {
-            MAKH = mAKH;
-            HOTEN = hOTEN;
-            NGAYSINH = nGAYSINH;
-            DIACHI = dIACHI;
-            SDT = sDT;
-            CMND = cMND;
-            LOAIKH = lOAIKH;
-            MANGH = mANGH;
+        public KhachHang(int ma, string ten, DateTime dob, string gioi, string dc, string sdt, string cmnd, string loai, int NGH) {
+            this.maKH = ma;
+            this.hoTen = ten;
+            this.ngaySinh = dob;
+            this.diaChi = dc;
+            this.SDT = sdt;
+            this.CMND = cmnd;
+            this.loaiKH = loai;
+            this.maNGH = NGH;
+        }
+        public KhachHang(int ma, string ten, DateTime dob, string gioi, string dc, string sdt, string cmnd, string loai) {
+            this.maKH = ma;
+            this.hoTen = ten;
+            this.ngaySinh = dob;
+            this.diaChi = dc;
+            this.SDT = sdt;
+            this.CMND = cmnd;
+            this.loaiKH = loai;
+        }
+        public int MaKH {
+            get{ return maKH; }
+            set{ maKH = value;}
         }
     }
 }
- 

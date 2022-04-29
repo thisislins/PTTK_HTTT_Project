@@ -1,6 +1,11 @@
-C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\bin\Debug\DTO.dll
-C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\bin\Debug\DTO.pdb
-C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
-C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
-C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DTO.dll
-C:\Users\lephu\source\repos\QLTIEMCHUNG\DTO\obj\Debug\DTO.pdb
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\DTO\bin\Debug\DTO.dll
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\DTO\bin\Debug\DTO.pdb
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\DTO\obj\Debug\DTO.dll
+D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\DTO\obj\Debug\DTO.pdb
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\DTO\bin\Debug\DTO.dll
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\DTO\bin\Debug\DTO.pdb
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\DTO\obj\Debug\DTO.dll
+C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\DTO\obj\Debug\DTO.pdb
