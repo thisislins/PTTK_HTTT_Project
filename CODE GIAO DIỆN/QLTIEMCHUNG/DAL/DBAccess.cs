@@ -15,8 +15,8 @@ namespace DAL
         public static SqlConnection Connect()
         {
             //string strcon = @"Data Source=KAYDEE;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
-            string strcon = @"Data Source=LIN-LIN\SQLEXPRESS;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
-
+            //string strcon = @"Data Source=LIN-LIN\SQLEXPRESS;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
+            string strcon = @"Data Source=LAPTOP-KTF30DB7\SQLEXPRESS;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
             SqlConnection conn = new SqlConnection(strcon); // khởi tạo connect
             return conn;
         }
@@ -24,7 +24,7 @@ namespace DAL
         public static List<PhieuDK> DocDSPDK_DTO()
         {
             List<PhieuDK> dsPDK = new List<PhieuDK>();
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "SELECT * FROM PHIEU_DANG_KY";
             SqlCommand cmd = new SqlCommand(strSQL, conn);
@@ -42,7 +42,7 @@ namespace DAL
         public static DataTable DocCTPDK_DTO(PhieuDK pdk){
             int maPDK = pdk.MaPDK;
             string strSQL = "SELECT * FROM CT_DANG_KY WHERE MAPDK = " + maPDK;
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             SqlCommand cmd = new SqlCommand(strSQL, conn);
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
@@ -53,7 +53,7 @@ namespace DAL
         }
 
         public static bool ThemPhieuDat(PhieuDK pdk,DataGridView view) {
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "INSERT INTO PHIEU_DAT_MUA (THANHTIEN, MANV, MAPDK, TRANGTHAI) VALUES(" + pdk.TongTien + "," + pdk.MaNV + "," + pdk.MaPDK + ",N'Chờ duyệt');"
                 + "SELECT CAST(scope_identity() AS int)";
@@ -73,7 +73,7 @@ namespace DAL
                 conn.Close();
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
                 conn.Close();
                 return false;
@@ -81,7 +81,7 @@ namespace DAL
         }
 
         public static DataTable DocDSPhieuDat() {
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "SELECT * FROM PHIEU_DAT_MUA";
             SqlCommand cmd = new SqlCommand(strSQL, conn);
@@ -94,39 +94,45 @@ namespace DAL
 
         public static bool DuyetPhieuDat(int maPD)
         {
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "UPDATE PHIEU_DAT_MUA SET TRANGTHAI = N'Duyệt' WHERE MAPD = "+maPD;
             SqlCommand cmd = new SqlCommand(strSQL, conn);
             try
             {
                 cmd.ExecuteNonQuery();
+
+                conn.Close();
                 return true;
             }
-            catch(Exception ex)
+            catch
             {
+                conn.Close();
                 return false;
             }
         }
 
         public static bool HuyPhieuDat(int maPD)
         {
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "UPDATE PHIEU_DAT_MUA SET TRANGTHAI = N'Hủy' WHERE MAPD = " + maPD;
             SqlCommand cmd = new SqlCommand(strSQL, conn);
             try
             {
                 cmd.ExecuteNonQuery();
+
+                conn.Close();
                 return true;
             }
-            catch (Exception ex)
+            catch
             {
+                conn.Close();
                 return false;
             }
         }
         public static DataTable XemCTPD(int maPD) {
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "SELECT * FROM CHI_TIET_PHIEU_DAT WHERE MAPD = "+maPD;
             SqlCommand cmd = new SqlCommand(strSQL, conn);
@@ -138,7 +144,7 @@ namespace DAL
         }
 
         public static List<KhachHang> DocDSKhachHang(List<KhachHang> ds) {
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "SELECT * FROM KHACH_HANG";
             SqlCommand cmd = new SqlCommand(strSQL, conn);
@@ -152,7 +158,7 @@ namespace DAL
         }
 
         public static DataTable DocDSVaccine() {
-            SqlConnection conn = DBAccess.Connect();
+            SqlConnection conn = Connect();
             conn.Open();
             string strSQL = "SELECT * FROM VACCINE";
             SqlCommand cmd = new SqlCommand(strSQL, conn);

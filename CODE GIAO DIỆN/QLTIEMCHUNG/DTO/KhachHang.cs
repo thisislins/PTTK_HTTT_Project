@@ -37,9 +37,29 @@ namespace DTO
             this.CMND = cmnd;
             this.loaiKH = loai;
         }
+
+        public KhachHang(int ma, string ten, string dc)
+        {
+            this.maKH = ma;
+            this.hoTen = ten;
+            this.diaChi = dc;
+        }
+
         public int MaKH {
             get{ return maKH; }
             set{ maKH = value;}
+        }
+
+        public string hOTEN
+        {
+            get { return hoTen; }
+            set { hoTen = value; }
+        }
+
+        public string dIACHI
+        {
+            get { return diaChi; }
+            set { diaChi = value; }
         }
     }
 }

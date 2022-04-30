@@ -54,6 +54,7 @@ namespace GUI
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnReturn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numHuyetAp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNhipTim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numNhietDo)).BeginInit();
@@ -219,7 +220,7 @@ namespace GUI
             // 
             this.dateNgayKham.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateNgayKham.Location = new System.Drawing.Point(260, 390);
-            this.dateNgayKham.MaxDate = new System.DateTime(System.DateTime.Now.Year, System.DateTime.Now.Month, System.DateTime.Now.Day, 0, 0, 0, 0);
+            this.dateNgayKham.MaxDate = new System.DateTime(2022, 4, 30, 0, 0, 0, 0);
             this.dateNgayKham.Name = "dateNgayKham";
             this.dateNgayKham.Size = new System.Drawing.Size(328, 28);
             this.dateNgayKham.TabIndex = 83;
@@ -314,11 +315,24 @@ namespace GUI
             this.label2.TabIndex = 75;
             this.label2.Text = "QUẢN LÝ PHIẾU KHÁM";
             // 
+            // btnReturn
+            // 
+            this.btnReturn.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReturn.Location = new System.Drawing.Point(24, 58);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(123, 40);
+            this.btnReturn.TabIndex = 99;
+            this.btnReturn.Text = "Trở lại";
+            this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // QLPhieuKham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 653);
+            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblMaPK);
             this.Controls.Add(this.lblMaPhieu);
@@ -383,5 +397,6 @@ namespace GUI
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnReturn;
     }
 }

@@ -1,40 +1,26 @@
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\GUI.exe.config
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\GUI.exe
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\BLL.dll
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\DTO.dll
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\DAL.dll
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\BLL.pdb
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\DTO.pdb
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\DAL.pdb
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.CTPhieuDat.resources
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.DangKyMuaVac.resources
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.DSDatMua.resources
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.Menu.resources
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.Properties.Resources.resources
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.QLPhieuKham.resources
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.exe
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\obj\Debug\GUI.pdb
-D:\DOWNLOADS\DoAn-20220429T144019Z-001\DoAn\QLTiemChung\GUI\bin\Debug\GUI.pdb
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\GUI.exe.config
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\GUI.exe
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\GUI.pdb
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\BLL.dll
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\DTO.dll
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\DAL.dll
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\BLL.pdb
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\DTO.pdb
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\bin\Debug\DAL.pdb
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.CTPhieuDat.resources
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.DangKyMuaVac.resources
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.DSDatMua.resources
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.Menu.resources
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.Properties.Resources.resources
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.QLPhieuKham.resources
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.exe
-C:\Users\lephu\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTiemChung\GUI\obj\Debug\GUI.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\GUI.exe.config
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\GUI.exe
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\BLL.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\DTO.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\DAL.dll
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\BLL.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\DTO.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\DAL.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.CTPhieuDat.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.DangKyMuaVac.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.DSDatMua.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.Menu.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.QLPhieuKham.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.QLSoTiemChung.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.exe
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\bin\Debug\GUI.pdb
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.SoTiemChungUI.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.ThemSoTiemChung.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.CapNhatSoTiemChung.resources
+C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\GUI\obj\Debug\GUI.XoaSoTiemChung.resources

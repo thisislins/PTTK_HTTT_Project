@@ -31,5 +31,13 @@ namespace GUI
             QLPhieuKham qlpk = new QLPhieuKham();
             qlpk.Visible = true;
         }
+
+        private void btnQLSTC_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            QLSoTiemChung qlstc = new QLSoTiemChung();
+            qlstc.Visible = true;
+        }
     }
 }

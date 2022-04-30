@@ -29,7 +29,7 @@ namespace GUI
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnDangKy = new System.Windows.Forms.Button();
+            this.btnQLSTC = new System.Windows.Forms.Button();
             this.btnQLHD = new System.Windows.Forms.Button();
             this.btnThanhToan = new System.Windows.Forms.Button();
             this.btnQLDSDM = new System.Windows.Forms.Button();
@@ -37,24 +37,25 @@ namespace GUI
             this.btnQLPhieuKham = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnDangKy
+            // btnQLSTC
             // 
-            this.btnDangKy.BackColor = System.Drawing.Color.SteelBlue;
-            this.btnDangKy.ForeColor = System.Drawing.Color.White;
-            this.btnDangKy.Location = new System.Drawing.Point(425, 161);
-            this.btnDangKy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnDangKy.Name = "btnDangKy";
-            this.btnDangKy.Size = new System.Drawing.Size(212, 49);
-            this.btnDangKy.TabIndex = 29;
-            this.btnDangKy.Text = "Đăng ký";
-            this.btnDangKy.UseVisualStyleBackColor = false;
+            this.btnQLSTC.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnQLSTC.ForeColor = System.Drawing.Color.White;
+            this.btnQLSTC.Location = new System.Drawing.Point(425, 161);
+            this.btnQLSTC.Margin = new System.Windows.Forms.Padding(4);
+            this.btnQLSTC.Name = "btnQLSTC";
+            this.btnQLSTC.Size = new System.Drawing.Size(212, 49);
+            this.btnQLSTC.TabIndex = 29;
+            this.btnQLSTC.Text = "Quản lý sổ tiêm chủng";
+            this.btnQLSTC.UseVisualStyleBackColor = false;
+            this.btnQLSTC.Click += new System.EventHandler(this.btnQLSTC_Click);
             // 
             // btnQLHD
             // 
             this.btnQLHD.BackColor = System.Drawing.Color.SteelBlue;
             this.btnQLHD.ForeColor = System.Drawing.Color.White;
             this.btnQLHD.Location = new System.Drawing.Point(425, 229);
-            this.btnQLHD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQLHD.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLHD.Name = "btnQLHD";
             this.btnQLHD.Size = new System.Drawing.Size(212, 49);
             this.btnQLHD.TabIndex = 28;
@@ -66,7 +67,7 @@ namespace GUI
             this.btnThanhToan.BackColor = System.Drawing.Color.SteelBlue;
             this.btnThanhToan.ForeColor = System.Drawing.Color.White;
             this.btnThanhToan.Location = new System.Drawing.Point(425, 300);
-            this.btnThanhToan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThanhToan.Margin = new System.Windows.Forms.Padding(4);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Size = new System.Drawing.Size(212, 49);
             this.btnThanhToan.TabIndex = 27;
@@ -78,7 +79,7 @@ namespace GUI
             this.btnQLDSDM.BackColor = System.Drawing.Color.SteelBlue;
             this.btnQLDSDM.ForeColor = System.Drawing.Color.White;
             this.btnQLDSDM.Location = new System.Drawing.Point(425, 370);
-            this.btnQLDSDM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnQLDSDM.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLDSDM.Name = "btnQLDSDM";
             this.btnQLDSDM.Size = new System.Drawing.Size(212, 49);
             this.btnQLDSDM.TabIndex = 26;
@@ -119,12 +120,12 @@ namespace GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnQLPhieuKham);
-            this.Controls.Add(this.btnDangKy);
+            this.Controls.Add(this.btnQLSTC);
             this.Controls.Add(this.btnQLHD);
             this.Controls.Add(this.btnThanhToan);
             this.Controls.Add(this.btnQLDSDM);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menu";
             this.Text = "Menu";
             this.ResumeLayout(false);
@@ -134,7 +135,7 @@ namespace GUI
 
         #endregion
 
-        private System.Windows.Forms.Button btnDangKy;
+        private System.Windows.Forms.Button btnQLSTC;
         private System.Windows.Forms.Button btnQLHD;
         private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.Button btnQLDSDM;

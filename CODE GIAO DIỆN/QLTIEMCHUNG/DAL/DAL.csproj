@@ -48,6 +48,7 @@
     <Compile Include="PhieuDK_DAL.cs" />
     <Compile Include="PhieuKham_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoTiemChung_DAL.cs" />
     <Compile Include="Vaccine_DAL.cs" />
   </ItemGroup>
   <ItemGroup>

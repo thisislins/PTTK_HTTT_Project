@@ -96,5 +96,17 @@ namespace GUI
             DangKyMuaVac dangKyMuaVac = new DangKyMuaVac();
             dangKyMuaVac.ShowDialog();
         }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.Visible = true;
+        }
+
+        private void DSDatMua_FormClosing(object sender, FormClosingEventArgs e)
+        {
+           //System.Windows.Forms.CloseReason
+        }
     }
 }

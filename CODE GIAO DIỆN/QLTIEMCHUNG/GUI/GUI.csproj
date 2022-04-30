@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapNhatSoTiemChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhatSoTiemChung.Designer.cs">
+      <DependentUpon>CapNhatSoTiemChung.cs</DependentUpon>
+    </Compile>
     <Compile Include="CTPhieuDat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,33 @@
     <Compile Include="QLPhieuKham.Designer.cs">
       <DependentUpon>QLPhieuKham.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLSoTiemChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLSoTiemChung.Designer.cs">
+      <DependentUpon>QLSoTiemChung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoTiemChungUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoTiemChungUI.Designer.cs">
+      <DependentUpon>SoTiemChungUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemSoTiemChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSoTiemChung.Designer.cs">
+      <DependentUpon>ThemSoTiemChung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XoaSoTiemChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XoaSoTiemChung.Designer.cs">
+      <DependentUpon>XoaSoTiemChung.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CapNhatSoTiemChung.resx">
+      <DependentUpon>CapNhatSoTiemChung.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CTPhieuDat.resx">
       <DependentUpon>CTPhieuDat.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +134,18 @@
     </Compile>
     <EmbeddedResource Include="QLPhieuKham.resx">
       <DependentUpon>QLPhieuKham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLSoTiemChung.resx">
+      <DependentUpon>QLSoTiemChung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoTiemChungUI.resx">
+      <DependentUpon>SoTiemChungUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSoTiemChung.resx">
+      <DependentUpon>ThemSoTiemChung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XoaSoTiemChung.resx">
+      <DependentUpon>XoaSoTiemChung.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

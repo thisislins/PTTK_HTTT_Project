@@ -156,13 +156,13 @@ namespace GUI
                 MessageBox.Show(ex.Message);
             }
         }
+
         private void btnReturn_Click(object sender, EventArgs e)
         {
             this.Hide();
             Menu menu = new Menu();
             menu.Visible = true;
         }
-
     }
 }
 
