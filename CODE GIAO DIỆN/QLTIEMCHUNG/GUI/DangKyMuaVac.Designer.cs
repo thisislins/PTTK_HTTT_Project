@@ -35,12 +35,10 @@ namespace GUI
             this.label6 = new System.Windows.Forms.Label();
             this.txtBoxMaKH = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.ngayLapPicker = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.btnThemPD = new System.Windows.Forms.Button();
             this.dsVacGrid = new System.Windows.Forms.DataGridView();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtBoxTongTien = new System.Windows.Forms.TextBox();
             this.btnTaoPDK = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.dsTamGrid = new System.Windows.Forms.DataGridView();
@@ -50,6 +48,8 @@ namespace GUI
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtBoxMaNV = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dsVacGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsTamGrid)).BeginInit();
             this.SuspendLayout();
@@ -109,7 +109,7 @@ namespace GUI
             // txtBoxMaKH
             // 
             this.txtBoxMaKH.Location = new System.Drawing.Point(97, 150);
-            this.txtBoxMaKH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBoxMaKH.Margin = new System.Windows.Forms.Padding(4);
             this.txtBoxMaKH.Name = "txtBoxMaKH";
             this.txtBoxMaKH.Size = new System.Drawing.Size(164, 22);
             this.txtBoxMaKH.TabIndex = 30;
@@ -117,20 +117,20 @@ namespace GUI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(389, 130);
+            this.label4.Location = new System.Drawing.Point(640, 130);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 17);
             this.label4.TabIndex = 32;
             this.label4.Text = "NGÀY LẬP";
             // 
-            // dateTimePicker1
+            // ngayLapPicker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(393, 150);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
-            this.dateTimePicker1.TabIndex = 33;
+            this.ngayLapPicker.Location = new System.Drawing.Point(644, 150);
+            this.ngayLapPicker.Margin = new System.Windows.Forms.Padding(4);
+            this.ngayLapPicker.Name = "ngayLapPicker";
+            this.ngayLapPicker.Size = new System.Drawing.Size(265, 22);
+            this.ngayLapPicker.TabIndex = 33;
             // 
             // label5
             // 
@@ -147,7 +147,7 @@ namespace GUI
             this.btnThemPD.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnThemPD.ForeColor = System.Drawing.Color.White;
             this.btnThemPD.Location = new System.Drawing.Point(96, 481);
-            this.btnThemPD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemPD.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemPD.Name = "btnThemPD";
             this.btnThemPD.Size = new System.Drawing.Size(100, 37);
             this.btnThemPD.TabIndex = 36;
@@ -159,7 +159,7 @@ namespace GUI
             // 
             this.dsVacGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dsVacGrid.Location = new System.Drawing.Point(96, 289);
-            this.dsVacGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dsVacGrid.Margin = new System.Windows.Forms.Padding(4);
             this.dsVacGrid.MultiSelect = false;
             this.dsVacGrid.Name = "dsVacGrid";
             this.dsVacGrid.RowHeadersWidth = 51;
@@ -167,31 +167,12 @@ namespace GUI
             this.dsVacGrid.Size = new System.Drawing.Size(425, 185);
             this.dsVacGrid.TabIndex = 37;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(701, 485);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 17);
-            this.label7.TabIndex = 39;
-            this.label7.Text = "TỔNG TIỀN:";
-            // 
-            // txtBoxTongTien
-            // 
-            this.txtBoxTongTien.Location = new System.Drawing.Point(801, 481);
-            this.txtBoxTongTien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtBoxTongTien.Name = "txtBoxTongTien";
-            this.txtBoxTongTien.ReadOnly = true;
-            this.txtBoxTongTien.Size = new System.Drawing.Size(145, 22);
-            this.txtBoxTongTien.TabIndex = 38;
-            // 
             // btnTaoPDK
             // 
             this.btnTaoPDK.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnTaoPDK.ForeColor = System.Drawing.Color.White;
-            this.btnTaoPDK.Location = new System.Drawing.Point(741, 513);
-            this.btnTaoPDK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTaoPDK.Location = new System.Drawing.Point(740, 482);
+            this.btnTaoPDK.Margin = new System.Windows.Forms.Padding(4);
             this.btnTaoPDK.Name = "btnTaoPDK";
             this.btnTaoPDK.Size = new System.Drawing.Size(100, 37);
             this.btnTaoPDK.TabIndex = 40;
@@ -203,8 +184,8 @@ namespace GUI
             // 
             this.btnHuy.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnHuy.ForeColor = System.Drawing.Color.White;
-            this.btnHuy.Location = new System.Drawing.Point(849, 513);
-            this.btnHuy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHuy.Location = new System.Drawing.Point(848, 482);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(100, 37);
             this.btnHuy.TabIndex = 41;
@@ -222,7 +203,7 @@ namespace GUI
             this.Column4,
             this.Column5});
             this.dsTamGrid.Location = new System.Drawing.Point(529, 289);
-            this.dsTamGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dsTamGrid.Margin = new System.Windows.Forms.Padding(4);
             this.dsTamGrid.Name = "dsTamGrid";
             this.dsTamGrid.RowHeadersWidth = 51;
             this.dsTamGrid.Size = new System.Drawing.Size(419, 185);
@@ -273,28 +254,46 @@ namespace GUI
             this.label8.TabIndex = 43;
             this.label8.Text = "CHI TIẾT ĐĂNG KÝ";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(369, 130);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(106, 17);
+            this.label7.TabIndex = 45;
+            this.label7.Text = "MÃ NHÂN VIÊN";
+            // 
+            // txtBoxMaNV
+            // 
+            this.txtBoxMaNV.Location = new System.Drawing.Point(373, 150);
+            this.txtBoxMaNV.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBoxMaNV.Name = "txtBoxMaNV";
+            this.txtBoxMaNV.Size = new System.Drawing.Size(164, 22);
+            this.txtBoxMaNV.TabIndex = 44;
+            // 
             // DangKyMuaVac
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 604);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtBoxMaNV);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dsTamGrid);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnTaoPDK);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtBoxTongTien);
             this.Controls.Add(this.dsVacGrid);
             this.Controls.Add(this.btnThemPD);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.ngayLapPicker);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtBoxMaKH);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DangKyMuaVac";
             this.Text = "DangKyMuaVac";
             this.Load += new System.EventHandler(this.DangKyMuaVac_Load);
@@ -313,12 +312,10 @@ namespace GUI
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtBoxMaKH;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker ngayLapPicker;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnThemPD;
         private System.Windows.Forms.DataGridView dsVacGrid;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtBoxTongTien;
         private System.Windows.Forms.Button btnTaoPDK;
         private System.Windows.Forms.Button btnHuy;
         private System.Windows.Forms.DataGridView dsTamGrid;
@@ -328,5 +325,7 @@ namespace GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtBoxMaNV;
     }
 }

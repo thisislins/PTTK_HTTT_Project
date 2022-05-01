@@ -33,6 +33,11 @@ namespace BLL
             return null;
         }
 
+        public bool TaoPhieuDK(PhieuDK pdk)
+        {
+            return pdk_DAL.TaoPhieuDK(pdk);
+        }
+
         public static decimal LayTongTien(int MaPDK)
         {
             return PhieuDK_DAL.LayTongTien(MaPDK);

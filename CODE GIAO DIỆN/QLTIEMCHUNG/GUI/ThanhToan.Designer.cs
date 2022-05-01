@@ -43,10 +43,6 @@ namespace GUI
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.chbTTBT = new System.Windows.Forms.CheckBox();
-            this.chbTTBTM = new System.Windows.Forms.CheckBox();
-            this.chbTTTD = new System.Windows.Forms.CheckBox();
-            this.chbTT1L = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -62,8 +58,16 @@ namespace GUI
             this.cbMaNVTN = new System.Windows.Forms.ComboBox();
             this.lblMaKH = new System.Windows.Forms.Label();
             this.btnReturn = new System.Windows.Forms.Button();
+            this.radioButtonTT1Lan = new System.Windows.Forms.RadioButton();
+            this.radioButtonTTTD = new System.Windows.Forms.RadioButton();
+            this.radioButtonTTTienMat = new System.Windows.Forms.RadioButton();
+            this.radioButtonTTThe = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.numTienHD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSCTPDK)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // numTienHD
@@ -215,50 +219,6 @@ namespace GUI
             this.button1.Text = "THANH TOÁN";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // chbTTBT
-            // 
-            this.chbTTBT.AutoSize = true;
-            this.chbTTBT.Location = new System.Drawing.Point(713, 599);
-            this.chbTTBT.Name = "chbTTBT";
-            this.chbTTBT.Size = new System.Drawing.Size(163, 21);
-            this.chbTTBT.TabIndex = 192;
-            this.chbTTBT.Text = "Thanh toán bằng thẻ";
-            this.chbTTBT.UseVisualStyleBackColor = true;
-            this.chbTTBT.CheckedChanged += new System.EventHandler(this.chbTTBT_CheckedChanged);
-            // 
-            // chbTTBTM
-            // 
-            this.chbTTBTM.AutoSize = true;
-            this.chbTTBTM.Location = new System.Drawing.Point(713, 563);
-            this.chbTTBTM.Name = "chbTTBTM";
-            this.chbTTBTM.Size = new System.Drawing.Size(193, 21);
-            this.chbTTBTM.TabIndex = 191;
-            this.chbTTBTM.Text = "Thanh toán bằng tiền mặt";
-            this.chbTTBTM.UseVisualStyleBackColor = true;
-            this.chbTTBTM.CheckedChanged += new System.EventHandler(this.chbTTBTM_CheckedChanged);
-            // 
-            // chbTTTD
-            // 
-            this.chbTTTD.AutoSize = true;
-            this.chbTTTD.Location = new System.Drawing.Point(200, 599);
-            this.chbTTTD.Name = "chbTTTD";
-            this.chbTTTD.Size = new System.Drawing.Size(159, 21);
-            this.chbTTTD.TabIndex = 190;
-            this.chbTTTD.Text = "Thanh toán theo đợt";
-            this.chbTTTD.UseVisualStyleBackColor = true;
-            this.chbTTTD.CheckedChanged += new System.EventHandler(this.chbTTTD_CheckedChanged);
-            // 
-            // chbTT1L
-            // 
-            this.chbTT1L.AutoSize = true;
-            this.chbTT1L.Location = new System.Drawing.Point(200, 563);
-            this.chbTT1L.Name = "chbTT1L";
-            this.chbTT1L.Size = new System.Drawing.Size(138, 21);
-            this.chbTT1L.TabIndex = 189;
-            this.chbTT1L.Text = "Thanh toán 1 lần";
-            this.chbTT1L.UseVisualStyleBackColor = true;
-            this.chbTT1L.CheckedChanged += new System.EventHandler(this.chbTT1L_CheckedChanged);
             // 
             // label3
             // 
@@ -417,11 +377,79 @@ namespace GUI
             this.btnReturn.UseVisualStyleBackColor = false;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
+            // radioButtonTT1Lan
+            // 
+            this.radioButtonTT1Lan.AutoSize = true;
+            this.radioButtonTT1Lan.Location = new System.Drawing.Point(10, 12);
+            this.radioButtonTT1Lan.Name = "radioButtonTT1Lan";
+            this.radioButtonTT1Lan.Size = new System.Drawing.Size(137, 21);
+            this.radioButtonTT1Lan.TabIndex = 205;
+            this.radioButtonTT1Lan.TabStop = true;
+            this.radioButtonTT1Lan.Text = "Thanh toán 1 lần";
+            this.radioButtonTT1Lan.UseVisualStyleBackColor = true;
+            this.radioButtonTT1Lan.CheckedChanged += new System.EventHandler(this.radioButtonTT1Lan_CheckedChanged);
+            // 
+            // radioButtonTTTD
+            // 
+            this.radioButtonTTTD.AutoSize = true;
+            this.radioButtonTTTD.Location = new System.Drawing.Point(8, 49);
+            this.radioButtonTTTD.Name = "radioButtonTTTD";
+            this.radioButtonTTTD.Size = new System.Drawing.Size(158, 21);
+            this.radioButtonTTTD.TabIndex = 206;
+            this.radioButtonTTTD.TabStop = true;
+            this.radioButtonTTTD.Text = "Thanh toán theo đợt";
+            this.radioButtonTTTD.UseVisualStyleBackColor = true;
+            this.radioButtonTTTD.CheckedChanged += new System.EventHandler(this.radioButtonTTTD_CheckedChanged);
+            // 
+            // radioButtonTTTienMat
+            // 
+            this.radioButtonTTTienMat.AutoSize = true;
+            this.radioButtonTTTienMat.Location = new System.Drawing.Point(9, 13);
+            this.radioButtonTTTienMat.Name = "radioButtonTTTienMat";
+            this.radioButtonTTTienMat.Size = new System.Drawing.Size(192, 21);
+            this.radioButtonTTTienMat.TabIndex = 207;
+            this.radioButtonTTTienMat.TabStop = true;
+            this.radioButtonTTTienMat.Text = "Thanh toán bằng tiền mặt";
+            this.radioButtonTTTienMat.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonTTThe
+            // 
+            this.radioButtonTTThe.AutoSize = true;
+            this.radioButtonTTThe.Location = new System.Drawing.Point(9, 49);
+            this.radioButtonTTThe.Name = "radioButtonTTThe";
+            this.radioButtonTTThe.Size = new System.Drawing.Size(162, 21);
+            this.radioButtonTTThe.TabIndex = 208;
+            this.radioButtonTTThe.TabStop = true;
+            this.radioButtonTTThe.Text = "Thanh toán bằng thẻ";
+            this.radioButtonTTThe.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButtonTTThe);
+            this.groupBox1.Controls.Add(this.radioButtonTTTienMat);
+            this.groupBox1.Location = new System.Drawing.Point(706, 553);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(219, 84);
+            this.groupBox1.TabIndex = 209;
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.radioButtonTTTD);
+            this.groupBox2.Controls.Add(this.radioButtonTT1Lan);
+            this.groupBox2.Location = new System.Drawing.Point(179, 553);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(172, 81);
+            this.groupBox2.TabIndex = 210;
+            this.groupBox2.TabStop = false;
+            // 
             // ThanhToan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1094, 783);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.cbMaNVTN);
             this.Controls.Add(this.lblMaKH);
@@ -435,10 +463,6 @@ namespace GUI
             this.Controls.Add(this.lbTTTT);
             this.Controls.Add(this.lbTongtien);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.chbTTBT);
-            this.Controls.Add(this.chbTTBTM);
-            this.Controls.Add(this.chbTTTD);
-            this.Controls.Add(this.chbTT1L);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
@@ -460,6 +484,10 @@ namespace GUI
             this.Load += new System.EventHandler(this.ThanhToan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numTienHD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSCTPDK)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -481,10 +509,6 @@ namespace GUI
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox chbTTBT;
-        private System.Windows.Forms.CheckBox chbTTBTM;
-        private System.Windows.Forms.CheckBox chbTTTD;
-        private System.Windows.Forms.CheckBox chbTT1L;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
@@ -500,5 +524,11 @@ namespace GUI
         private System.Windows.Forms.ComboBox cbMaNVTN;
         private System.Windows.Forms.Label lblMaKH;
         private System.Windows.Forms.Button btnReturn;
+        private System.Windows.Forms.RadioButton radioButtonTT1Lan;
+        private System.Windows.Forms.RadioButton radioButtonTTTD;
+        private System.Windows.Forms.RadioButton radioButtonTTTienMat;
+        private System.Windows.Forms.RadioButton radioButtonTTThe;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

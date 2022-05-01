@@ -23,7 +23,7 @@ namespace GUI
         {
             try
             {
-                chbTTTD.Enabled = true;
+                radioButtonTTTD.Enabled = true;              
                 numTienHD.ReadOnly = false;
 
                 if (cbMaPDK.SelectedIndex == -1)
@@ -43,7 +43,7 @@ namespace GUI
                 decimal tongtien = decimal.Parse(lbTongtien.Text);
                 if (tongtien < 10000000)
                 {
-                    chbTTTD.Enabled = false;
+                    radioButtonTTTD.Enabled = false;                    
                     numTienHD.Value = tongtien;
                     numTienHD.ReadOnly = true;
                 }
@@ -84,7 +84,6 @@ namespace GUI
                 //numTienHD.Maximum = 10000000000;
                 //numTienHD.Minimum = 0;
 
-                chbTTTD.Checked = false;
                 lbDotTTTD.Text = "1";
                 lbSoTTT.Text = lbTongtien.Text;
                 decimal tongtien = decimal.Parse(lbTongtien.Text);
@@ -101,7 +100,6 @@ namespace GUI
                 //numTienHD.Maximum = 10000000000;
                 //numTienHD.Minimum = 0;
 
-                chbTT1L.Checked = false;
                 lbDotTTTD.Text = "4";
                 decimal tongtien = decimal.Parse(lbTongtien.Text);
                 decimal soTTT = tongtien / 4;
@@ -111,15 +109,6 @@ namespace GUI
             }
         }
 
-        private void chbTTBTM_CheckedChanged(object sender, EventArgs e)
-        {
-            chbTTBT.Checked = false;
-        }
-
-        private void chbTTBT_CheckedChanged(object sender, EventArgs e)
-        {
-            chbTTBTM.Checked = false;
-        }
 
         private void reset()
         {
@@ -132,12 +121,8 @@ namespace GUI
             dgvDSCTPDK.DataSource = null;
 
             tbNoiDung.Text = "";
-            chbTT1L.Checked = false;
-            chbTTTD.Checked = false;
-            chbTTBT.Checked = false;
-            chbTTBTM.Checked = false;
             numTienHD.ReadOnly = false;
-            chbTTTD.Enabled = true;
+            radioButtonTTTD.Enabled = true;
 
             lbTongtien.Text = "Tổng tiền";
             lbTienDTT.Text = "Số tiền thanh toán";
@@ -159,8 +144,8 @@ namespace GUI
             }
 
             if (cbMaPDK.SelectedIndex == -1 || cbMaNVTN.SelectedIndex == -1 || tbNoiDung.Text == "" ||
-                        (chbTT1L.CheckState == CheckState.Unchecked && chbTTTD.CheckState == CheckState.Unchecked) ||
-                        (chbTTBT.CheckState == CheckState.Unchecked && chbTTBTM.CheckState == CheckState.Unchecked))
+                        (radioButtonTT1Lan.Checked== false && radioButtonTTTD.Checked == false) ||
+                        (radioButtonTTThe.Checked == false && radioButtonTTTienMat.Checked == false))
             {
                 MessageBox.Show("Vui lòng nhập đủ thông tin");
                 return;
@@ -170,24 +155,24 @@ namespace GUI
             string PTTT = "";
             string HTTT = "";
 
-            if (chbTT1L.CheckState == CheckState.Checked)
+            if (radioButtonTT1Lan.Checked == true)
             {
                 PTTT = "THANH TOÁN 1 LẦN";
                 decimal tongtien = decimal.Parse(lbTongtien.Text);
                 numTienHD.Value = tongtien;
                 numTienHD.ReadOnly = true;
             }
-            else if (chbTTTD.CheckState == CheckState.Checked)
+            else if (radioButtonTTTD.Checked == true)
             {
                 numTienHD.ReadOnly = false;
                 PTTT = "THANH TOÁN THEO ĐỢT";
             }
 
-            if (chbTTBT.CheckState == CheckState.Checked)
+            if (radioButtonTTThe.Checked == true)
             {
                 HTTT = "THANH TOÁN BẰNG THẺ";
             }
-            else if (chbTTBTM.CheckState == CheckState.Checked)
+            else if (radioButtonTTTienMat.Checked == true)
             {
                 HTTT = "THANH TOÁN BẰNG TIỀN MẶT";
             }
@@ -209,6 +194,42 @@ namespace GUI
         private void btnReturn_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void radioButtonTT1Lan_CheckedChanged(object sender, EventArgs e)
+        {
+            if (lbTongtien.Text != "Tổng tiền")
+            {
+                //numTienHD.Maximum = 10000000000;
+                //numTienHD.Minimum = 0;
+
+                lbDotTTTD.Text = "1";
+                lbSoTTT.Text = lbTongtien.Text;
+                decimal tongtien = decimal.Parse(lbTongtien.Text);
+                numTienHD.Value = tongtien;
+                //numTienHD.Minimum = tongtien;
+                //numTienHD.Maximum = tongtien;
+            }
+        }
+
+        private void radioButtonTTTD_CheckedChanged(object sender, EventArgs e)
+        {
+            //numTienHD.Maximum = 10000000000;
+            //numTienHD.Minimum = 0;
+
+            lbDotTTTD.Text = "4";
+            decimal tongtien = 0;
+            try
+            {
+                tongtien = decimal.Parse(lbTongtien.Text);
+            }
+            catch (Exception ex) { 
+            
+            }
+            decimal soTTT = tongtien / 4;
+            numTienHD.Value = soTTT;
+            //numTienHD.Minimum = soTTT;
+            lbSoTTT.Text = soTTT.ToString();             
         }
     }
 }

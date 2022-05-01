@@ -11,15 +11,42 @@ namespace DTO
         int maPDK;
         int maVC;
         int soLuong;
-        int donGia;
+        decimal donGia;
         decimal thanhTien;
 
-        public CTDangKY(int maDK, int vac, int sl, int dg, decimal tt){
-            this.maPDK = maDK;
+        public CTDangKY(int vac, int sl, int dg, decimal tt)
+        {
             this.maVC = vac;
             this.soLuong = sl;
             this.donGia = dg;
             this.thanhTien = tt;
+        }
+
+        public int MaPDK
+        {
+            get { return maPDK; }
+            set { maPDK = value; }
+        }
+        public int MaVC
+        {
+            get { return maVC; }
+            set { maVC = value; }
+        }
+
+        public int SoLuong
+        {
+            get { return soLuong; }
+            set { soLuong = value; }
+        }
+        public decimal DonGia
+        {
+            get { return donGia; }
+            set { donGia = value; }
+        }
+        public decimal ThanhTien
+        {
+            get { return thanhTien; }
+            set { thanhTien = value; }
         }
     }
 }

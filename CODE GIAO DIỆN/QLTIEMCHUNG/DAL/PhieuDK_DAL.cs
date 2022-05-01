@@ -13,11 +13,61 @@ namespace DAL
     public class PhieuDK_DAL
     {
         public List<PhieuDK> DocDSPDK() {
-            return DBAccess.DocDSPDK_DTO();
+            List<PhieuDK> dsPDK = new List<PhieuDK>();
+            SqlConnection conn = DBAccess.Connect();
+            conn.Open();
+            string strSQL = "SELECT * FROM PHIEU_DANG_KY";
+            SqlCommand cmd = new SqlCommand(strSQL, conn);
+
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                dsPDK.Add(new PhieuDK(reader.GetInt32(0), reader.GetDateTime(1), reader.GetString(2), reader.GetString(3),
+                    reader.GetDecimal(4), reader.GetString(5), reader.GetInt32(6), reader.GetInt32(7), reader.GetInt32(8)));
+            }
+            conn.Close();
+            return dsPDK;
         }
 
         public DataTable XemCTPDK(PhieuDK pdk) {
-            return DBAccess.DocCTPDK_DTO(pdk);
+            int maPDK = pdk.MaPDK;
+            string strSQL = "SELECT * FROM CT_DANG_KY WHERE MAPDK = " + maPDK;
+            SqlConnection conn = DBAccess.Connect();
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(strSQL, conn);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            conn.Close();
+            DataTable dataTable = new DataTable();
+            adapter.Fill(dataTable);
+            return dataTable;
+        }
+
+        public bool TaoPhieuDK(PhieuDK pdk)
+        {
+            string strSQL = "INSERT INTO PHIEU_DANG_KY (NGAYTIEM,TRANGTHAI,LOAI,TONGTIEN,TRANGTHAITT,SODOTTT,MAKH,MANV) VALUES ('" + pdk.NgayTiem + "'," + pdk.TrangThai + ",'" + pdk.Loai + "'," +
+                pdk.TongTien + "," + pdk.TrangThaiTT + "," +
+                pdk.SoDTT + "," + pdk.MaKH + "," + pdk.MaNV + ");" + "SELECT CAST(scope_identity() AS int)";
+            SqlConnection conn = DBAccess.Connect();
+            conn.Open();
+            try
+            {
+                SqlCommand cmd = new SqlCommand(strSQL, conn);
+                int id = (Int32)cmd.ExecuteScalar();
+                foreach (CTDangKY item in pdk.DSCT_DangKy)
+                {
+                    strSQL = "INSERT INTO CT_DANG_KY VALUES(" + id + "," + item.MaVC + "," + item.SoLuong +
+                        "," + item.DonGia + "," + item.ThanhTien + ")";
+                    cmd = new SqlCommand(strSQL, conn);
+                    cmd.ExecuteNonQuery();
+                }
+                conn.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                conn.Close();
+                return false;
+            }
         }
 
         public static decimal LayTongTien(int MaPDK)

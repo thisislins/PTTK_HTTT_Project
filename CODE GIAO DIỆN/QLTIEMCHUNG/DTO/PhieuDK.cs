@@ -9,6 +9,7 @@ namespace DTO
 {
     public class PhieuDK
     {
+        List<CTDangKY> DSCT_PDK = new List<CTDangKY>();
         string loai;
         int maKH;
         int maNV;
@@ -43,6 +44,21 @@ namespace DTO
         public PhieuDK(int MaPDK, DateTime NgayTiem, string TrangThai, string Loai,
             decimal TongTien, string TrangThaiTT, int DTT, int MaKH, int MaNV
              )
+        {
+            this.loai = Loai;
+            this.maKH = MaKH;
+            this.maNV = MaNV;
+            this.maPDK = MaPDK;
+            this.soDTT = DTT;
+            this.ngayTiem = NgayTiem;
+            this.tongTien = TongTien;
+            this.trangThai = TrangThai;
+            this.trangThaiTT = TrangThaiTT;
+        }
+
+        public PhieuDK(DateTime NgayTiem, string TrangThai, string Loai,
+decimal TongTien, string TrangThaiTT, int DTT, int MaKH, int MaNV
+)
         {
             this.loai = Loai;
             this.maKH = MaKH;
@@ -107,6 +123,12 @@ namespace DTO
         {
             get { return trangThaiTT; }
             set { trangThaiTT = value; }
+        }
+
+        public List<CTDangKY> DSCT_DangKy
+        {
+            get { return DSCT_PDK; }
+            set { DSCT_PDK = value; }
         }
     }
 }
