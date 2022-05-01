@@ -31,3 +31,14 @@ C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.dll
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.pdb
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\BLL.dll
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\BLL.pdb
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DAL.dll
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DTO.dll
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DAL.pdb
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DTO.pdb
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.dll
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.pdb
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CopyComplete

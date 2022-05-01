@@ -61,6 +61,7 @@ namespace GUI
             this.btnQLHD.TabIndex = 28;
             this.btnQLHD.Text = "Quản lý hóa đơn";
             this.btnQLHD.UseVisualStyleBackColor = false;
+            this.btnQLHD.Click += new System.EventHandler(this.btnQLHD_Click);
             // 
             // btnThanhToan
             // 
@@ -73,6 +74,7 @@ namespace GUI
             this.btnThanhToan.TabIndex = 27;
             this.btnThanhToan.Text = "Thanh toán";
             this.btnThanhToan.UseVisualStyleBackColor = false;
+            this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
             // 
             // btnQLDSDM
             // 

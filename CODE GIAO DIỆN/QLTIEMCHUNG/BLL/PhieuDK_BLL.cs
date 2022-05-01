@@ -32,5 +32,30 @@ namespace BLL
             }
             return null;
         }
+
+        public static decimal LayTongTien(int MaPDK)
+        {
+            return PhieuDK_DAL.LayTongTien(MaPDK);
+        }
+
+        public static int LaySoDotTT(int MaPDK)
+        {
+            return PhieuDK_DAL.LaySoDotTT(MaPDK);
+        }
+
+        public static string LayTTTT(int MaPDK)
+        {
+            return PhieuDK_DAL.LayTTTT(MaPDK);
+        }
+
+        public static decimal LayTongTienDTT(int MaPDK)
+        {
+            return PhieuDK_DAL.LayTongTienDTT(MaPDK);
+        }
+
+        public static int LayMaKH(int MaPDK)
+        {
+            return PhieuDK_DAL.LayMaKH(MaPDK);
+        }
     }
 }

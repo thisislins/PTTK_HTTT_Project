@@ -16,7 +16,8 @@ namespace DAL
         {
             //string strcon = @"Data Source=KAYDEE;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
             //string strcon = @"Data Source=LIN-LIN\SQLEXPRESS;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
-            string strcon = @"Data Source=LAPTOP-KTF30DB7\SQLEXPRESS;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
+            //string strcon = @"Data Source=LAPTOP-KTF30DB7\SQLEXPRESS;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
+            string strcon = @"Data Source=MSI\SQLEXPRESS;Initial Catalog=QLTIEMCHUNG;Integrated Security=True";
             SqlConnection conn = new SqlConnection(strcon); // khởi tạo connect
             return conn;
         }

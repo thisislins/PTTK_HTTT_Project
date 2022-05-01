@@ -39,5 +39,21 @@ namespace GUI
             QLSoTiemChung qlstc = new QLSoTiemChung();
             qlstc.Visible = true;
         }
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+            ThanhToan TT = new ThanhToan();
+            this.Hide();
+            TT.ShowDialog();
+            this.Show();
+        }
+
+        private void btnQLHD_Click(object sender, EventArgs e)
+        {
+            QuanLyHoaDon QLHD = new QuanLyHoaDon();
+            this.Hide();
+            QLHD.ShowDialog();
+            this.Show();
+        }
     }
 }

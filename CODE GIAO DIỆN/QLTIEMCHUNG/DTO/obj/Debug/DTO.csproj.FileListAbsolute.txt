@@ -15,3 +15,9 @@ C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.dll
 C:\Users\AN515-52\OneDrive - VNU-HCMUS\Desktop\CNTT_KHTN\HK2_2021_2022\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.pdb
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\bin\Debug\DTO.dll
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\bin\Debug\DTO.pdb
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.dll
+C:\Users\PC\Desktop\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.pdb
