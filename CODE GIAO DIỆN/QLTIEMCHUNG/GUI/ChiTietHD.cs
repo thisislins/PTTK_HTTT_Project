@@ -47,19 +47,19 @@ namespace GUI
 
                 if (pttt == "THANH TOÁN 1 LẦN")
                 {
-                    chbTT1L.Checked = true;
+                    rbtnTT1Lan.Checked = true;
                 }
                 if (pttt == "THANH TOÁN THEO ĐỢT")
                 {
-                    chbTTTD.Checked = true;
+                    rbtnTTTD.Checked = true;
                 }
                 if (httt == "THANH TOÁN BẰNG THẺ")
                 {
-                    chbTTBT.Checked = true;
+                    rbtnTTThe.Checked = true;
                 }
                 if (httt == "THANH TOÁN BẰNG TIỀN MẶT")
                 {
-                    chbTTBTM.Checked = true;
+                    rbtnTTTienMat.Checked = true;
                 }
 
                 cbMaPDK.Text = hd.MaPDK.ToString();
@@ -102,10 +102,10 @@ namespace GUI
             dgvDSCTPDK.DataSource = null;
             numTienHD.Value = 0;
             tbNoiDung.Text = "";           
-            chbTT1L.Checked = false;
-            chbTTTD.Checked = false;
-            chbTTBT.Checked = false;
-            chbTTBTM.Checked = false;
+            rbtnTT1Lan.Checked = false;
+            rbtnTTTD.Checked = false;
+            rbtnTTThe.Checked = false;
+            rbtnTTTienMat.Checked = false;
             dateNgayLap.Value = DateTime.Parse("01/01/2000");
         }
 
@@ -118,8 +118,8 @@ namespace GUI
                 {
                     if (cbMaHD.SelectedIndex == -1 || cbMaPDK.SelectedIndex == -1 || cbMaKH.SelectedIndex == -1 ||
                          cbMaNVTN.SelectedIndex == -1 || dateNgayLap.Text == "" || tbNoiDung.Text == "" ||
-                         (chbTT1L.CheckState == CheckState.Unchecked && chbTTTD.CheckState == CheckState.Unchecked) ||
-                         (chbTTBT.CheckState == CheckState.Unchecked && chbTTBTM.CheckState == CheckState.Unchecked))
+                         (rbtnTT1Lan.Checked == false && rbtnTTTD.Checked == false) ||
+                        (rbtnTTThe.Checked == false && rbtnTTTienMat.Checked == false))
                     {
                         MessageBox.Show("Vui lòng điền đủ thông tin!");
                         return;
@@ -133,7 +133,7 @@ namespace GUI
                     string _nd = tbNoiDung.Text;
                     decimal _tongtien = numTienHD.Value;
                     String _PTTT, _HTTT = "";
-                    if (chbTT1L.CheckState == CheckState.Checked)
+                    if (rbtnTT1Lan.Checked == true)
                     {
                         _PTTT = "THANH TOÁN 1 LẦN";
                     }
@@ -141,7 +141,7 @@ namespace GUI
                     {
                         _PTTT = "THANH TOÁN THEO ĐỢT";
                     }
-                    if (chbTTBT.CheckState == CheckState.Checked)
+                    if (rbtnTTThe.Checked == true)
                     {
                         _HTTT = "THANH TOÁN BẰNG THẺ";
                     }
@@ -193,26 +193,6 @@ namespace GUI
                     MessageBox.Show(ex.Message);
                 }
             }
-        }
-
-        private void chbTT1L_CheckedChanged(object sender, EventArgs e)
-        {
-            chbTTTD.Checked = false;
-        }
-
-        private void chbTTTD_CheckedChanged(object sender, EventArgs e)
-        {
-            chbTT1L.Checked = false;
-        }
-
-        private void chbTTBTM_CheckedChanged(object sender, EventArgs e)
-        {
-            chbTTBT.Checked = false;
-        }
-
-        private void chbTTBT_CheckedChanged(object sender, EventArgs e)
-        {
-            chbTTBTM.Checked = false;
         }
 
         private void cbMaHD_SelectedIndexChanged(object sender, EventArgs e)

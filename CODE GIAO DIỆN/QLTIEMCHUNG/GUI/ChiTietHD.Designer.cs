@@ -36,7 +36,7 @@ namespace GUI
             this.label4 = new System.Windows.Forms.Label();
             this.cbMaKH = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnReset = new System.Windows.Forms.Button();
+            this.btnXoaHD = new System.Windows.Forms.Button();
             this.lblMaPhieu = new System.Windows.Forms.Label();
             this.cbMaNVTN = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -47,20 +47,24 @@ namespace GUI
             this.lblNgayKham = new System.Windows.Forms.Label();
             this.lblMaKH = new System.Windows.Forms.Label();
             this.dgvDSCTPDK = new System.Windows.Forms.DataGridView();
-            this.btnSua = new System.Windows.Forms.Button();
+            this.btnCapNhatHD = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnKtra = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.chbTT1L = new System.Windows.Forms.CheckBox();
-            this.chbTTTD = new System.Windows.Forms.CheckBox();
-            this.chbTTBT = new System.Windows.Forms.CheckBox();
-            this.chbTTBTM = new System.Windows.Forms.CheckBox();
             this.btnReturn = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.rbtnTTTD = new System.Windows.Forms.RadioButton();
+            this.rbtnTT1Lan = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbtnTTThe = new System.Windows.Forms.RadioButton();
+            this.rbtnTTTienMat = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.numTienHD)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSCTPDK)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelTTPDK
@@ -137,17 +141,17 @@ namespace GUI
             this.label3.TabIndex = 169;
             this.label3.Text = "Mã khách hàng: ";
             // 
-            // btnReset
+            // btnXoaHD
             // 
-            this.btnReset.BackColor = System.Drawing.Color.Salmon;
-            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.Location = new System.Drawing.Point(664, 680);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(166, 47);
-            this.btnReset.TabIndex = 168;
-            this.btnReset.Text = "XÓA HÓA ĐƠN";
-            this.btnReset.UseVisualStyleBackColor = false;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            this.btnXoaHD.BackColor = System.Drawing.Color.Salmon;
+            this.btnXoaHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaHD.Location = new System.Drawing.Point(664, 680);
+            this.btnXoaHD.Name = "btnXoaHD";
+            this.btnXoaHD.Size = new System.Drawing.Size(166, 47);
+            this.btnXoaHD.TabIndex = 168;
+            this.btnXoaHD.Text = "XÓA HÓA ĐƠN";
+            this.btnXoaHD.UseVisualStyleBackColor = false;
+            this.btnXoaHD.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // lblMaPhieu
             // 
@@ -250,17 +254,17 @@ namespace GUI
             this.dgvDSCTPDK.Size = new System.Drawing.Size(843, 130);
             this.dgvDSCTPDK.TabIndex = 157;
             // 
-            // btnSua
+            // btnCapNhatHD
             // 
-            this.btnSua.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(271, 680);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(205, 47);
-            this.btnSua.TabIndex = 156;
-            this.btnSua.Text = "CẬP NHẬT HÓA ĐƠN";
-            this.btnSua.UseVisualStyleBackColor = false;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            this.btnCapNhatHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCapNhatHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhatHD.Location = new System.Drawing.Point(271, 680);
+            this.btnCapNhatHD.Name = "btnCapNhatHD";
+            this.btnCapNhatHD.Size = new System.Drawing.Size(205, 47);
+            this.btnCapNhatHD.TabIndex = 156;
+            this.btnCapNhatHD.Text = "CẬP NHẬT HÓA ĐƠN";
+            this.btnCapNhatHD.UseVisualStyleBackColor = false;
+            this.btnCapNhatHD.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // label2
             // 
@@ -283,18 +287,18 @@ namespace GUI
             this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 154;
             // 
-            // button1
+            // btnKtra
             // 
-            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button1.Location = new System.Drawing.Point(623, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 33);
-            this.button1.TabIndex = 177;
-            this.button1.Text = "Tìm kiếm";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnKtra.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnKtra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKtra.ForeColor = System.Drawing.Color.AliceBlue;
+            this.btnKtra.Location = new System.Drawing.Point(623, 65);
+            this.btnKtra.Name = "btnKtra";
+            this.btnKtra.Size = new System.Drawing.Size(98, 33);
+            this.btnKtra.TabIndex = 177;
+            this.btnKtra.Text = "Tìm kiếm";
+            this.btnKtra.UseVisualStyleBackColor = false;
+            this.btnKtra.Click += new System.EventHandler(this.button1_Click);
             // 
             // label7
             // 
@@ -327,50 +331,6 @@ namespace GUI
             this.label9.TabIndex = 181;
             this.label9.Text = "Hình thức thanh toán:";
             // 
-            // chbTT1L
-            // 
-            this.chbTT1L.AutoSize = true;
-            this.chbTT1L.Location = new System.Drawing.Point(215, 564);
-            this.chbTT1L.Name = "chbTT1L";
-            this.chbTT1L.Size = new System.Drawing.Size(138, 21);
-            this.chbTT1L.TabIndex = 183;
-            this.chbTT1L.Text = "Thanh toán 1 lần";
-            this.chbTT1L.UseVisualStyleBackColor = true;
-            this.chbTT1L.CheckedChanged += new System.EventHandler(this.chbTT1L_CheckedChanged);
-            // 
-            // chbTTTD
-            // 
-            this.chbTTTD.AutoSize = true;
-            this.chbTTTD.Location = new System.Drawing.Point(215, 607);
-            this.chbTTTD.Name = "chbTTTD";
-            this.chbTTTD.Size = new System.Drawing.Size(159, 21);
-            this.chbTTTD.TabIndex = 184;
-            this.chbTTTD.Text = "Thanh toán theo đợt";
-            this.chbTTTD.UseVisualStyleBackColor = true;
-            this.chbTTTD.CheckedChanged += new System.EventHandler(this.chbTTTD_CheckedChanged);
-            // 
-            // chbTTBT
-            // 
-            this.chbTTBT.AutoSize = true;
-            this.chbTTBT.Location = new System.Drawing.Point(749, 607);
-            this.chbTTBT.Name = "chbTTBT";
-            this.chbTTBT.Size = new System.Drawing.Size(163, 21);
-            this.chbTTBT.TabIndex = 186;
-            this.chbTTBT.Text = "Thanh toán bằng thẻ";
-            this.chbTTBT.UseVisualStyleBackColor = true;
-            this.chbTTBT.CheckedChanged += new System.EventHandler(this.chbTTBT_CheckedChanged);
-            // 
-            // chbTTBTM
-            // 
-            this.chbTTBTM.AutoSize = true;
-            this.chbTTBTM.Location = new System.Drawing.Point(749, 564);
-            this.chbTTBTM.Name = "chbTTBTM";
-            this.chbTTBTM.Size = new System.Drawing.Size(193, 21);
-            this.chbTTBTM.TabIndex = 185;
-            this.chbTTBTM.Text = "Thanh toán bằng tiền mặt";
-            this.chbTTBTM.UseVisualStyleBackColor = true;
-            this.chbTTBTM.CheckedChanged += new System.EventHandler(this.chbTTBTM_CheckedChanged);
-            // 
             // btnReturn
             // 
             this.btnReturn.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -383,20 +343,82 @@ namespace GUI
             this.btnReturn.UseVisualStyleBackColor = false;
             this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rbtnTTTD);
+            this.groupBox2.Controls.Add(this.rbtnTT1Lan);
+            this.groupBox2.Location = new System.Drawing.Point(201, 555);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(172, 81);
+            this.groupBox2.TabIndex = 212;
+            this.groupBox2.TabStop = false;
+            // 
+            // rbtnTTTD
+            // 
+            this.rbtnTTTD.AutoSize = true;
+            this.rbtnTTTD.Location = new System.Drawing.Point(8, 49);
+            this.rbtnTTTD.Name = "rbtnTTTD";
+            this.rbtnTTTD.Size = new System.Drawing.Size(158, 21);
+            this.rbtnTTTD.TabIndex = 206;
+            this.rbtnTTTD.TabStop = true;
+            this.rbtnTTTD.Text = "Thanh toán theo đợt";
+            this.rbtnTTTD.UseVisualStyleBackColor = true;
+            // 
+            // rbtnTT1Lan
+            // 
+            this.rbtnTT1Lan.AutoSize = true;
+            this.rbtnTT1Lan.Location = new System.Drawing.Point(10, 12);
+            this.rbtnTT1Lan.Name = "rbtnTT1Lan";
+            this.rbtnTT1Lan.Size = new System.Drawing.Size(137, 21);
+            this.rbtnTT1Lan.TabIndex = 205;
+            this.rbtnTT1Lan.TabStop = true;
+            this.rbtnTT1Lan.Text = "Thanh toán 1 lần";
+            this.rbtnTT1Lan.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rbtnTTThe);
+            this.groupBox1.Controls.Add(this.rbtnTTTienMat);
+            this.groupBox1.Location = new System.Drawing.Point(728, 555);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(219, 84);
+            this.groupBox1.TabIndex = 211;
+            this.groupBox1.TabStop = false;
+            // 
+            // rbtnTTThe
+            // 
+            this.rbtnTTThe.AutoSize = true;
+            this.rbtnTTThe.Location = new System.Drawing.Point(9, 49);
+            this.rbtnTTThe.Name = "rbtnTTThe";
+            this.rbtnTTThe.Size = new System.Drawing.Size(162, 21);
+            this.rbtnTTThe.TabIndex = 208;
+            this.rbtnTTThe.TabStop = true;
+            this.rbtnTTThe.Text = "Thanh toán bằng thẻ";
+            this.rbtnTTThe.UseVisualStyleBackColor = true;
+            // 
+            // rbtnTTTienMat
+            // 
+            this.rbtnTTTienMat.AutoSize = true;
+            this.rbtnTTTienMat.Location = new System.Drawing.Point(9, 13);
+            this.rbtnTTTienMat.Name = "rbtnTTTienMat";
+            this.rbtnTTTienMat.Size = new System.Drawing.Size(192, 21);
+            this.rbtnTTTienMat.TabIndex = 207;
+            this.rbtnTTTienMat.TabStop = true;
+            this.rbtnTTTienMat.Text = "Thanh toán bằng tiền mặt";
+            this.rbtnTTTienMat.UseVisualStyleBackColor = true;
+            // 
             // ChiTietHD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1134, 784);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnReturn);
-            this.Controls.Add(this.chbTTBT);
-            this.Controls.Add(this.chbTTBTM);
-            this.Controls.Add(this.chbTTTD);
-            this.Controls.Add(this.chbTT1L);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnKtra);
             this.Controls.Add(this.labelTTPDK);
             this.Controls.Add(this.numTienHD);
             this.Controls.Add(this.label5);
@@ -404,7 +426,7 @@ namespace GUI
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cbMaKH);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnXoaHD);
             this.Controls.Add(this.lblMaPhieu);
             this.Controls.Add(this.cbMaNVTN);
             this.Controls.Add(this.label12);
@@ -415,7 +437,7 @@ namespace GUI
             this.Controls.Add(this.lblNgayKham);
             this.Controls.Add(this.lblMaKH);
             this.Controls.Add(this.dgvDSCTPDK);
-            this.Controls.Add(this.btnSua);
+            this.Controls.Add(this.btnCapNhatHD);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ChiTietHD";
@@ -423,6 +445,10 @@ namespace GUI
             this.Load += new System.EventHandler(this.CTHoaDon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numTienHD)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDSCTPDK)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -437,7 +463,7 @@ namespace GUI
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cbMaKH;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnXoaHD;
         private System.Windows.Forms.Label lblMaPhieu;
         private System.Windows.Forms.ComboBox cbMaNVTN;
         private System.Windows.Forms.Label label12;
@@ -448,17 +474,19 @@ namespace GUI
         private System.Windows.Forms.Label lblNgayKham;
         private System.Windows.Forms.Label lblMaKH;
         private System.Windows.Forms.DataGridView dgvDSCTPDK;
-        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnCapNhatHD;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnKtra;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.CheckBox chbTT1L;
-        private System.Windows.Forms.CheckBox chbTTTD;
-        private System.Windows.Forms.CheckBox chbTTBT;
-        private System.Windows.Forms.CheckBox chbTTBTM;
         private System.Windows.Forms.Button btnReturn;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton rbtnTTTD;
+        private System.Windows.Forms.RadioButton rbtnTT1Lan;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton rbtnTTThe;
+        private System.Windows.Forms.RadioButton rbtnTTTienMat;
     }
 }

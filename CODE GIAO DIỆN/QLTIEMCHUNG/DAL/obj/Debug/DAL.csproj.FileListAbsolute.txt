@@ -42,3 +42,12 @@ D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTI
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.dll
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\bin\Debug\DAL.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\bin\Debug\DAL.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\bin\Debug\DTO.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\bin\Debug\DTO.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DAL\obj\Debug\DAL.pdb

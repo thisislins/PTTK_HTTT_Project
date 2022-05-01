@@ -53,3 +53,14 @@ D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTI
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.dll
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\BLL.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\BLL.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DAL.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DTO.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DAL.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\bin\Debug\DTO.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\BLL\obj\Debug\BLL.pdb
