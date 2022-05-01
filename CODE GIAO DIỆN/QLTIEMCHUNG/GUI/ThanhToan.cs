@@ -23,7 +23,7 @@ namespace GUI
         {
             try
             {
-                radioButtonTTTD.Enabled = true;              
+                rbtnTTTD.Enabled = true;              
                 numTienHD.ReadOnly = false;
 
                 if (cbMaPDK.SelectedIndex == -1)
@@ -43,7 +43,7 @@ namespace GUI
                 decimal tongtien = decimal.Parse(lbTongtien.Text);
                 if (tongtien < 10000000)
                 {
-                    radioButtonTTTD.Enabled = false;                    
+                    rbtnTTTD.Enabled = false;                    
                     numTienHD.Value = tongtien;
                     numTienHD.ReadOnly = true;
                 }
@@ -122,7 +122,7 @@ namespace GUI
 
             tbNoiDung.Text = "";
             numTienHD.ReadOnly = false;
-            radioButtonTTTD.Enabled = true;
+            rbtnTTTD.Enabled = true;
 
             lbTongtien.Text = "Tổng tiền";
             lbTienDTT.Text = "Số tiền thanh toán";
@@ -144,8 +144,8 @@ namespace GUI
             }
 
             if (cbMaPDK.SelectedIndex == -1 || cbMaNVTN.SelectedIndex == -1 || tbNoiDung.Text == "" ||
-                        (radioButtonTT1Lan.Checked== false && radioButtonTTTD.Checked == false) ||
-                        (radioButtonTTThe.Checked == false && radioButtonTTTienMat.Checked == false))
+                        (rbtnTT1Lan.Checked== false && rbtnTTTD.Checked == false) ||
+                        (rbtnTTThe.Checked == false && rbtnTTTienMat.Checked == false))
             {
                 MessageBox.Show("Vui lòng nhập đủ thông tin");
                 return;
@@ -155,24 +155,24 @@ namespace GUI
             string PTTT = "";
             string HTTT = "";
 
-            if (radioButtonTT1Lan.Checked == true)
+            if (rbtnTT1Lan.Checked == true)
             {
                 PTTT = "THANH TOÁN 1 LẦN";
                 decimal tongtien = decimal.Parse(lbTongtien.Text);
                 numTienHD.Value = tongtien;
                 numTienHD.ReadOnly = true;
             }
-            else if (radioButtonTTTD.Checked == true)
+            else if (rbtnTTTD.Checked == true)
             {
                 numTienHD.ReadOnly = false;
                 PTTT = "THANH TOÁN THEO ĐỢT";
             }
 
-            if (radioButtonTTThe.Checked == true)
+            if (rbtnTTThe.Checked == true)
             {
                 HTTT = "THANH TOÁN BẰNG THẺ";
             }
-            else if (radioButtonTTTienMat.Checked == true)
+            else if (rbtnTTTienMat.Checked == true)
             {
                 HTTT = "THANH TOÁN BẰNG TIỀN MẶT";
             }

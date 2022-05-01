@@ -30,8 +30,8 @@ namespace GUI
         private void InitializeComponent()
         {
             this.dgvQLHD = new System.Windows.Forms.DataGridView();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnThem = new System.Windows.Forms.Button();
+            this.btnXemCTHD = new System.Windows.Forms.Button();
+            this.btnTaoHD = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnReturn = new System.Windows.Forms.Button();
@@ -49,29 +49,29 @@ namespace GUI
             this.dgvQLHD.Size = new System.Drawing.Size(940, 393);
             this.dgvQLHD.TabIndex = 120;
             // 
-            // btnSua
+            // btnXemCTHD
             // 
-            this.btnSua.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(411, 528);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(219, 52);
-            this.btnSua.TabIndex = 119;
-            this.btnSua.Text = "Xem chi tiết hóa đơn";
-            this.btnSua.UseVisualStyleBackColor = false;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            this.btnXemCTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnXemCTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXemCTHD.Location = new System.Drawing.Point(411, 528);
+            this.btnXemCTHD.Name = "btnXemCTHD";
+            this.btnXemCTHD.Size = new System.Drawing.Size(219, 52);
+            this.btnXemCTHD.TabIndex = 119;
+            this.btnXemCTHD.Text = "Xem chi tiết hóa đơn";
+            this.btnXemCTHD.UseVisualStyleBackColor = false;
+            this.btnXemCTHD.Click += new System.EventHandler(this.btnSua_Click);
             // 
-            // btnThem
+            // btnTaoHD
             // 
-            this.btnThem.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.Location = new System.Drawing.Point(20, 529);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(155, 51);
-            this.btnThem.TabIndex = 118;
-            this.btnThem.Text = "Tạo hóa đơn";
-            this.btnThem.UseVisualStyleBackColor = false;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            this.btnTaoHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnTaoHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaoHD.Location = new System.Drawing.Point(20, 529);
+            this.btnTaoHD.Name = "btnTaoHD";
+            this.btnTaoHD.Size = new System.Drawing.Size(155, 51);
+            this.btnTaoHD.TabIndex = 118;
+            this.btnTaoHD.Text = "Tạo hóa đơn";
+            this.btnTaoHD.UseVisualStyleBackColor = false;
+            this.btnTaoHD.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // label2
             // 
@@ -113,8 +113,8 @@ namespace GUI
             this.ClientSize = new System.Drawing.Size(982, 653);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.dgvQLHD);
-            this.Controls.Add(this.btnSua);
-            this.Controls.Add(this.btnThem);
+            this.Controls.Add(this.btnXemCTHD);
+            this.Controls.Add(this.btnTaoHD);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "QuanLyHoaDon";
@@ -128,8 +128,8 @@ namespace GUI
 
         #endregion
         private System.Windows.Forms.DataGridView dgvQLHD;
-        private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnXemCTHD;
+        private System.Windows.Forms.Button btnTaoHD;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnReturn;

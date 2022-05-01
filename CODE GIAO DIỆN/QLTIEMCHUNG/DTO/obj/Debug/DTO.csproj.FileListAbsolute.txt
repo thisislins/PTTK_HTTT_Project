@@ -27,3 +27,9 @@ D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTI
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.dll
 D:\HCMUS\HK2-Nam3\PTTK-HTTT\BTNhom\Clone\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\bin\Debug\DTO.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\bin\Debug\DTO.pdb
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.dll
+C:\Users\PC\Downloads\PTTK_HTTT_Project\CODE GIAO DIỆN\QLTIEMCHUNG\DTO\obj\Debug\DTO.pdb

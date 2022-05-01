@@ -36,7 +36,7 @@ namespace GUI
             this.label4 = new System.Windows.Forms.Label();
             this.cbMaKH = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnReset = new System.Windows.Forms.Button();
+            this.btnXoaHD = new System.Windows.Forms.Button();
             this.lblMaPhieu = new System.Windows.Forms.Label();
             this.cbMaNVTN = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -47,10 +47,10 @@ namespace GUI
             this.lblNgayKham = new System.Windows.Forms.Label();
             this.lblMaKH = new System.Windows.Forms.Label();
             this.dgvDSCTPDK = new System.Windows.Forms.DataGridView();
-            this.btnSua = new System.Windows.Forms.Button();
+            this.btnCapNhatHD = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnKtra = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -137,17 +137,17 @@ namespace GUI
             this.label3.TabIndex = 169;
             this.label3.Text = "Mã khách hàng: ";
             // 
-            // btnReset
+            // btnXoaHD
             // 
-            this.btnReset.BackColor = System.Drawing.Color.Salmon;
-            this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReset.Location = new System.Drawing.Point(664, 680);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(166, 47);
-            this.btnReset.TabIndex = 168;
-            this.btnReset.Text = "XÓA HÓA ĐƠN";
-            this.btnReset.UseVisualStyleBackColor = false;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            this.btnXoaHD.BackColor = System.Drawing.Color.Salmon;
+            this.btnXoaHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaHD.Location = new System.Drawing.Point(664, 680);
+            this.btnXoaHD.Name = "btnXoaHD";
+            this.btnXoaHD.Size = new System.Drawing.Size(166, 47);
+            this.btnXoaHD.TabIndex = 168;
+            this.btnXoaHD.Text = "XÓA HÓA ĐƠN";
+            this.btnXoaHD.UseVisualStyleBackColor = false;
+            this.btnXoaHD.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // lblMaPhieu
             // 
@@ -250,17 +250,17 @@ namespace GUI
             this.dgvDSCTPDK.Size = new System.Drawing.Size(843, 130);
             this.dgvDSCTPDK.TabIndex = 157;
             // 
-            // btnSua
+            // btnCapNhatHD
             // 
-            this.btnSua.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.Location = new System.Drawing.Point(271, 680);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(205, 47);
-            this.btnSua.TabIndex = 156;
-            this.btnSua.Text = "CẬP NHẬT HÓA ĐƠN";
-            this.btnSua.UseVisualStyleBackColor = false;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            this.btnCapNhatHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCapNhatHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhatHD.Location = new System.Drawing.Point(271, 680);
+            this.btnCapNhatHD.Name = "btnCapNhatHD";
+            this.btnCapNhatHD.Size = new System.Drawing.Size(205, 47);
+            this.btnCapNhatHD.TabIndex = 156;
+            this.btnCapNhatHD.Text = "CẬP NHẬT HÓA ĐƠN";
+            this.btnCapNhatHD.UseVisualStyleBackColor = false;
+            this.btnCapNhatHD.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // label2
             // 
@@ -283,18 +283,18 @@ namespace GUI
             this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 154;
             // 
-            // button1
+            // btnKtra
             // 
-            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.AliceBlue;
-            this.button1.Location = new System.Drawing.Point(623, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 33);
-            this.button1.TabIndex = 177;
-            this.button1.Text = "Tìm kiếm";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnKtra.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnKtra.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKtra.ForeColor = System.Drawing.Color.AliceBlue;
+            this.btnKtra.Location = new System.Drawing.Point(623, 65);
+            this.btnKtra.Name = "btnKtra";
+            this.btnKtra.Size = new System.Drawing.Size(98, 33);
+            this.btnKtra.TabIndex = 177;
+            this.btnKtra.Text = "Tìm kiếm";
+            this.btnKtra.UseVisualStyleBackColor = false;
+            this.btnKtra.Click += new System.EventHandler(this.button1_Click);
             // 
             // label7
             // 
@@ -396,7 +396,7 @@ namespace GUI
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnKtra);
             this.Controls.Add(this.labelTTPDK);
             this.Controls.Add(this.numTienHD);
             this.Controls.Add(this.label5);
@@ -404,7 +404,7 @@ namespace GUI
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cbMaKH);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnXoaHD);
             this.Controls.Add(this.lblMaPhieu);
             this.Controls.Add(this.cbMaNVTN);
             this.Controls.Add(this.label12);
@@ -415,7 +415,7 @@ namespace GUI
             this.Controls.Add(this.lblNgayKham);
             this.Controls.Add(this.lblMaKH);
             this.Controls.Add(this.dgvDSCTPDK);
-            this.Controls.Add(this.btnSua);
+            this.Controls.Add(this.btnCapNhatHD);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "ChiTietHD";
@@ -437,7 +437,7 @@ namespace GUI
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cbMaKH;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnXoaHD;
         private System.Windows.Forms.Label lblMaPhieu;
         private System.Windows.Forms.ComboBox cbMaNVTN;
         private System.Windows.Forms.Label label12;
@@ -448,10 +448,10 @@ namespace GUI
         private System.Windows.Forms.Label lblNgayKham;
         private System.Windows.Forms.Label lblMaKH;
         private System.Windows.Forms.DataGridView dgvDSCTPDK;
-        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnCapNhatHD;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnKtra;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
