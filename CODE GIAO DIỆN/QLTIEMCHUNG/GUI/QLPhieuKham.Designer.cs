@@ -220,11 +220,11 @@ namespace GUI
             // 
             this.dateNgayKham.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateNgayKham.Location = new System.Drawing.Point(260, 390);
-            this.dateNgayKham.MaxDate = new System.DateTime(2022, 4, 30, 0, 0, 0, 0);
+            this.dateNgayKham.MaxDate = new System.DateTime(System.DateTime.Now.Year, System.DateTime.Now.Month, System.DateTime.Now.Day, 0, 0, 0, 0);
             this.dateNgayKham.Name = "dateNgayKham";
             this.dateNgayKham.Size = new System.Drawing.Size(328, 28);
             this.dateNgayKham.TabIndex = 83;
-            this.dateNgayKham.Value = new System.DateTime(2022, 4, 27, 0, 0, 0, 0);
+            this.dateNgayKham.Value = new System.DateTime(System.DateTime.Now.Year, System.DateTime.Now.Month, System.DateTime.Now.Day, 0, 0, 0, 0);
             // 
             // cbKH
             // 
